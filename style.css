@@ -84,11 +84,11 @@ img{
 }
 @media(min-width:590px){
     .item{
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 @media(max-width:590px){
     .item{
-        flex-direction: row; 
+        flex-direction: column; 
     }
 }
