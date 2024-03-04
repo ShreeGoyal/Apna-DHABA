@@ -92,9 +92,23 @@ img{
 @media(max-width:590px){
     .item{
         flex-direction: column; 
+        gap: 1px;
     }
     #navitems{
         flex-direction: column;
     }
-}
+    #navList{
+        font-size:1rem;
+    }
+    img{
+        height: 350px;
+        margin-left: 10px;
 
+    }
+    #rightbox{
+        margin-left:50px;
+    }
+    #right{
+        margin-left:50px
+    }
+}
