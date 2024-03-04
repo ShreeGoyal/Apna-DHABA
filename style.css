@@ -80,6 +80,21 @@ img{
 #right{
     margin-right:90px;
     margin-top:30px;
-    
+}
+@media(min-width:590px){
+    .item{
+        flex-direction: row;
+    }
+    #navitems{
+        flex-direction:row;
+    }
+}
+@media(max-width:590px){
+    .item{
+        flex-direction: column; 
+    }
+    #navitems{
+        flex-direction: column;
+    }
 }
 
