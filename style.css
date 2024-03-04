@@ -64,6 +64,7 @@ footer{
 }
 img{
     height:400px;
+    width:400px;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
@@ -102,6 +103,7 @@ img{
     }
     img{
         height: 350px;
+        width:350px;
         margin-left: 10px;
 
     }
